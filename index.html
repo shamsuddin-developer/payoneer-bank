@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay & Get Paid Worldwide | Payoneer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <div id="login-area" class="centerize">
+        <h1 class="hero-text">Welcome To Payoneer Worldwide Bank</h1>
+        <div class="submit-area">
+            <h3>Login</h3>
+            <input type="text" class="form-control form-control-lg mt-4" placeholder="Email" name="" id="">
+            <input type="password" class="form-control form-control-lg mt-4" placeholder="Password" name="" id="">
+            <input id="login" type="submit" class="btn btn-submit mt-4 " value="Login">
+        </div>
+    </div>
+
+    <div id="transection-area" class="centerize">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit box">
+                    <h3>Deposit</h3>
+                    <h2>$<span id="current-deposit">00</span> </h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw box">
+                    <h3>Withdraw</h3>
+                    <h2>$<span id="current-withdraw-amount">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance box">
+                    <h3>Balance</h3>
+                    <h2>$<span id="total-balance">1240</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <div id="deposit-input-box" class="box mt-5">
+                    <h3>Deposit</h3>
+                    <input id="deposit-amount" placeholder="$ amount you want to deposit"
+                        class="form-control form-control-lg" type="text">
+                    <input id="add-deposit" class="btn btn-submit mt-4" type="submit" value="deposit">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="withdraw-input-box" class="box mt-5">
+                    <h3>Withdraw</h3>
+                    <input id="withdraw-amount" placeholder="$ amount you want to withdraw"
+                        class="form-control form-control-lg" type="text">
+                    <input id="withdraw-btn" class="btn btn-submit mt-4" type="submit" value="Withdraw">
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>

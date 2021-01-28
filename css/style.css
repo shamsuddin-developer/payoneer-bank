@@ -1,0 +1,59 @@
+body {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 46px;
+  color: #00c274;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #00c274;
+}
+
+.centerize {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.submit-area {
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 930px;
+  background-color: #fff;
+  padding: 45px;
+}
+.btn-submit {
+  background-color: #00c274;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 25px;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #080a2b;
+  color: #fff;
+}
+#transection-area {
+  display: none;
+  width: 1050px;
+}
+.box {
+  background-color: #fff;
+  padding: 40px 30px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
